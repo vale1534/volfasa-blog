@@ -1,0 +1,27 @@
+[book]
+title = "volfasa.com"
+description = "个人学习用站点"
+authors = ["Mathieu David", "Michael-F-Bryan"]
+language = "en"
+
+[rust]
+edition = "2018"
+
+[output.html]
+default-theme = "coal"
+mathjax-support = true
+site-url = "/mdBook/"
+git-repository-url = "https://github.com/rust-lang/mdBook/tree/master/guide"
+
+[output.html.playground]
+editable = true
+line-numbers = true
+
+[output.html.search]
+limit-results = 20
+use-boolean-and = true
+boost-title = 2
+boost-hierarchy = 2
+boost-paragraph = 1
+expand = true
+heading-split-level = 2
